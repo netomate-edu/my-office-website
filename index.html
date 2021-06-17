@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>My Office Website</title>
+
+    <style>
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .header-bg {
+            background-image: url('./img/office.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+
+        }
+
+        .header-li {
+            list-style-type: none;
+        }
+
+        .branch-diff h5 {
+            font-weight: bolder;
+            font-size: 1.2rem;
+            padding-top: 10px;
+        }
+
+        .branch-diff p {
+            font-size: .9rem;
+        }
+
+        .featured {
+            background-color: teal;
+            color: #fff
+        }
+
+        .featured img {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./img/icons8-open-view-64.png" width="50" alt="company icon">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" </span>
+                </button>
+
+                <div class=" collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OFFICE FURNITURE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DESIGN SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FREE INSTALLATION</a>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="btn btn-dark px-4">Build My Office</button>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <div class="header-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mt-5">
+                        <h3 class="fs-1">Office Furniture Made Easy</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="">
+                        <ul class="header-li p-0">
+                            <li class="fs-5"><i class="bi bi-check text-info"></i> Exceptional desks, chairs, tables and
+                                more</li>
+                            <li class="fs-5"><i class="bi bi-check text-info"></i> Get furnished in 5-15 business days
+                            </li>
+                            <li class="fs-5"><i class="bi bi-check text-info"></i> Free shipping and installation</li>
+                        </ul>
+                        <button type="button" class="btn btn-dark px-4">Build My Office</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-lg-center my-5">
+                    <h2>The Branch Difference</h2>
+                </div>
+            </div>
+
+            <div class="row text-center branch-diff">
+                <div class="col-lg-3 mb-3">
+                    <img src="./img/icons8-open-view-64.png" width="40" alt="t">
+                    <h5>Contract-Grade Office Furniture</h5>
+                    <p>Branch makes desks, chairs, tables and more that inspire and support your team</p>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <img src="./img/icons8-open-view-64.png" width="40" alt="t">
+                    <h5>Contract-Grade Office Furniture</h5>
+                    <p>Branch makes desks, chairs, tables and more that inspire and support your team</p>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <img src="./img/icons8-open-view-64.png" width="40" alt="t">
+                    <h5>Contract-Grade Office Furniture</h5>
+                    <p>Branch makes desks, chairs, tables and more that inspire and support your team</p>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <img src="./img/icons8-open-view-64.png" width="40" alt="t">
+                    <h5>Contract-Grade Office Furniture</h5>
+                    <p>Branch makes desks, chairs, tables and more that inspire and support your team</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="featured px-5 py-3">
+                <div class="container">
+                    <!-- <div class="row text-center mb-3">
+                        <div class="col">
+                            <h4>CONTACT US ON</h4>
+                        </div>
+                    </div> -->
+                    <div class="row" style="font-size:2rem;">
+                        <div class="col">
+                            <a class="text-light" href="https://icons.getbootstrap.com/icons/alarm/">
+                                <i class="bi-alarm"></i></a>
+                        </div>
+                        <div class="col">
+                            <a class="text-light" href="https://icons.getbootstrap.com/icons/linkedin">
+                                <i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <div class="col"><i class="bi bi-instagram"></i></div>
+                        <div class="col"><i class="bi bi-twitter"></i></div>
+                        <div class="col"><i class="bi bi-facebook"></i></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
